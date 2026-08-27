@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6ca4a9d-3f61-4cc5-acb1-3ba44da10758" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome/welcome.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,60 +30,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000068305" />
-      <entry key="S2" value="1.0019800480866623" />
-      <entry key="S5" value="1.2392976436008656" />
-      <entry key="S10" value="2.9473102324291656" />
-      <entry key="S30" value="11.400385503556018" />
-      <entry key="S60" value="19.00448270665651" />
-      <entry key="M2" value="25.896059662815762" />
-      <entry key="M5" value="31.88058015143935" />
-      <entry key="M10" value="34.308411617634576" />
-      <entry key="M15" value="35.17469578815816" />
-      <entry key="M30" value="36.07146820015595" />
-      <entry key="H1" value="36.5316825334074" />
-      <entry key="H2" value="36.76481797263184" />
-      <entry key="H4" value="36.882151849975166" />
-      <entry key="D1" value="36.98032281626681" />
-      <entry key="W1" value="36.997188094931154" />
+      <entry key="MS500" value="1.0000003603779148" />
+      <entry key="S2" value="1.0263795501079298" />
+      <entry key="S5" value="1.346700511026153" />
+      <entry key="S10" value="1.9637802888252396" />
+      <entry key="S30" value="3.102714513834516" />
+      <entry key="S60" value="3.847801902441366" />
+      <entry key="M2" value="4.658618071378273" />
+      <entry key="M5" value="8.00032126913305" />
+      <entry key="M10" value="19.355682986825002" />
+      <entry key="M15" value="33.096619392137555" />
+      <entry key="M30" value="68.28471648138827" />
+      <entry key="H1" value="106.3565573183018" />
+      <entry key="H2" value="135.5485324080263" />
+      <entry key="H4" value="156.66403955785972" />
+      <entry key="D1" value="298.61922319442715" />
+      <entry key="W1" value="461.39431506820057" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="1.1616927206691676E-142" />
+      <entry key="S5" value="3.0116018609350607E-57" />
+      <entry key="S10" value="9.372001211128194E-29" />
+      <entry key="S30" value="9.431057460754932E-10" />
+      <entry key="S60" value="5.4733742234439444E-5" />
+      <entry key="M2" value="0.014686485582864107" />
+      <entry key="M5" value="0.6097753328952012" />
+      <entry key="M10" value="2.924077415939522" />
+      <entry key="M15" value="5.407383019555547" />
+      <entry key="M30" value="10.795669313188172" />
+      <entry key="H1" value="15.846441140456411" />
+      <entry key="H2" value="19.424815132203157" />
+      <entry key="H4" value="21.958243533821307" />
+      <entry key="D1" value="39.70827231350369" />
+      <entry key="W1" value="57.229750092851496" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="9.13603748030799E-6" />
-      <entry key="MS500" value="0.09820906458349567" />
-      <entry key="S2" value="0.5605644404072437" />
-      <entry key="S5" value="0.9962280162505517" />
-      <entry key="S10" value="2.7534399726721515" />
-      <entry key="S30" value="11.273872415199337" />
-      <entry key="S60" value="18.923731610733483" />
-      <entry key="M2" value="25.849472008876518" />
-      <entry key="M5" value="31.86007732232248" />
-      <entry key="M10" value="34.29780772045183" />
-      <entry key="M15" value="35.16754468639415" />
-      <entry key="M30" value="36.06785080341611" />
-      <entry key="H1" value="36.529863194682" />
-      <entry key="H2" value="36.7639056203679" />
-      <entry key="H4" value="36.881695000237606" />
-      <entry key="D1" value="36.980246580841744" />
-      <entry key="W1" value="36.99717720185572" />
+      <entry key="MS100" value="0.6506709277209668" />
+      <entry key="MS500" value="0.917640198658899" />
+      <entry key="S2" value="1.0040796661527134" />
+      <entry key="S5" value="1.325062292147495" />
+      <entry key="S10" value="1.9326281246086654" />
+      <entry key="S30" value="3.0730385138295984" />
+      <entry key="S60" value="3.8200794855024456" />
+      <entry key="M2" value="4.650266510451331" />
+      <entry key="M5" value="8.590545596305859" />
+      <entry key="M10" value="22.255529725191135" />
+      <entry key="M15" value="38.47700974190562" />
+      <entry key="M30" value="79.05384926287579" />
+      <entry key="H1" value="122.18297144760577" />
+      <entry key="H2" value="154.96079243898038" />
+      <entry key="H4" value="178.6150393422562" />
+      <entry key="D1" value="338.3248763307933" />
+      <entry key="W1" value="518.6234589754642" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -88,19 +95,22 @@
 }</component>
   <component name="ProjectId" id="3INHDmNaivqGyqk1yTh3TCUbnmr" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SearchEverywhere.PersistedScope.FileSearchEverywhereContributor": "All Places",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
@@ -111,12 +121,16 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/ariel/WebstormProjects/ai-resume-analyser/src/main.js",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true"
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ariel\\WebstormProjects\\ai-resume-analyser\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2026.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "typescript.add.unambiguous.imports.on.the.fly": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ariel\WebstormProjects\ai-resume-analyser" />
       <recent name="C:\Users\ariel\WebstormProjects\ai-resume-analyser\public" />
     </key>
   </component>
@@ -135,7 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1787597992774</updated>
       <workItem from="1787597993747" duration="403000" />
-      <workItem from="1787598462051" duration="2900000" />
+      <workItem from="1787598462051" duration="4775000" />
+      <workItem from="1787604637415" duration="17836000" />
+      <workItem from="1787858362955" duration="2624000" />
     </task>
     <servers />
   </component>
@@ -145,5 +161,21 @@
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="javascript:npm:prettier" />
     <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/constants/index.ts</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/routes/auth.tsx</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
