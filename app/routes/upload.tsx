@@ -121,9 +121,20 @@ const Upload = () => {
                 .replace(/```$/i, "")
                 .trim();
 
-            data.feedback = JSON.parse(cleanedFeedbackText);
+            try {
+                data.feedback = JSON.parse(cleanedFeedbackText);
 
-            console.log("Parsed feedback:", data.feedback);
+                console.log("Parsed feedback:", data.feedback);
+            } catch (error) {
+                console.error("JSON PARSE FAILED:", error);
+                console.error("RAW AI RESPONSE:", cleanedFeedbackText);
+
+                setStatusText(
+                    "Error: AI returned incomplete feedback. Please try again."
+                );
+
+                return;
+            }
 
 // STEP 8: Update SAME KV record
             await kv.set(`resume:${uuid}`, JSON.stringify(data));
@@ -137,11 +148,17 @@ const Upload = () => {
         } catch (error) {
             console.error("RESUME ANALYSIS ERROR:", error);
 
-            setStatusText(
-                `Error: ${
-                    error instanceof Error ? error.message : String(error)
-                }`
-            );
+            const message =
+                error instanceof Error ? error.message : String(error);
+
+            if (message.includes("No usage left")) {
+                setStatusText(
+                    "AI usage limit reached. Please try again later."
+                );
+                return;
+            }
+
+            setStatusText(`Error: ${message}`);
         }
     };
 

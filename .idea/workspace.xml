@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ca4a9d-3f61-4cc5-acb1-3ba44da10758" name="Changes" comment="Completed Form Upload">
+    <list default="true" id="d6ca4a9d-3f61-4cc5-acb1-3ba44da10758" name="Changes" comment="Started Authentication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/FIleUploader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/FIleUploader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/puter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pdf.worker.min.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/public/pdf.worker.min.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,67 +24,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Arielle-code-studio&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Arielle-code-studio/ai-resume-analyser.git&quot;,
+    &quot;accountId&quot;: &quot;7ebd769c-2a06-4776-a3e0-c61f322ed300&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000284668" />
-      <entry key="MS500" value="1.012327295009624" />
-      <entry key="S2" value="1.3385035966809569" />
-      <entry key="S5" value="1.8106519519528452" />
-      <entry key="S10" value="2.5194171210185687" />
-      <entry key="S30" value="5.6944593720605425" />
-      <entry key="S60" value="10.141583696174607" />
-      <entry key="M2" value="16.638145558644542" />
-      <entry key="M5" value="29.645388044036316" />
-      <entry key="M10" value="49.50355754780195" />
-      <entry key="M15" value="67.76085488745142" />
-      <entry key="M30" value="115.75582256528577" />
-      <entry key="H1" value="202.77263504166484" />
-      <entry key="H2" value="341.4752042902965" />
-      <entry key="H4" value="514.0438708576567" />
-      <entry key="D1" value="926.7043358752783" />
-      <entry key="W1" value="1186.0039325805374" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.00051329226041" />
+      <entry key="S2" value="1.2709077759543579" />
+      <entry key="S5" value="2.0955344527423385" />
+      <entry key="S10" value="2.902151170759115" />
+      <entry key="S30" value="5.449982958453156" />
+      <entry key="S60" value="8.731862793672047" />
+      <entry key="M2" value="12.957178813352325" />
+      <entry key="M5" value="22.668268041155795" />
+      <entry key="M10" value="35.72009075117821" />
+      <entry key="M15" value="44.21069931351338" />
+      <entry key="M30" value="56.8091245850944" />
+      <entry key="H1" value="65.36853314315954" />
+      <entry key="H2" value="70.39205557843592" />
+      <entry key="H4" value="73.11832534398509" />
+      <entry key="D1" value="136.38697819267972" />
+      <entry key="W1" value="1004.3767797944097" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.8096519028489416E-78" />
-      <entry key="MS500" value="3.0883783790569263E-16" />
-      <entry key="S2" value="1.3257292253875946E-4" />
-      <entry key="S5" value="0.028657686387726103" />
-      <entry key="S10" value="0.191766158472259" />
-      <entry key="S30" value="0.9979726947397192" />
-      <entry key="S60" value="2.0180411327500476" />
-      <entry key="M2" value="3.5209574115148454" />
-      <entry key="M5" value="6.225904396809497" />
-      <entry key="M10" value="9.735252083534265" />
-      <entry key="M15" value="12.9133328792525" />
-      <entry key="M30" value="21.200443970477977" />
-      <entry key="H1" value="35.70752929457136" />
-      <entry key="H2" value="58.79099600502237" />
-      <entry key="H4" value="88.05178118314201" />
-      <entry key="D1" value="154.1067191104955" />
-      <entry key="W1" value="187.6841257781756" />
+      <entry key="MS100" value="6.623738253392219E-144" />
+      <entry key="MS500" value="2.3132396753751872E-29" />
+      <entry key="S2" value="6.935138810306742E-8" />
+      <entry key="S5" value="0.0013691038688697066" />
+      <entry key="S10" value="0.037215373780980505" />
+      <entry key="S30" value="0.4093694148149361" />
+      <entry key="S60" value="1.0177673456314003" />
+      <entry key="M2" value="2.043706651937622" />
+      <entry key="M5" value="4.191107464340423" />
+      <entry key="M10" value="6.415247661142647" />
+      <entry key="M15" value="7.701603488447474" />
+      <entry key="M30" value="9.481961317721522" />
+      <entry key="H1" value="10.628979030047642" />
+      <entry key="H2" value="11.28350383901639" />
+      <entry key="H4" value="11.633596559597867" />
+      <entry key="D1" value="20.709179900755096" />
+      <entry key="W1" value="144.7576987396155" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.3816155810106305E-4" />
-      <entry key="MS500" value="0.21144684225809868" />
-      <entry key="S2" value="0.98136778873311" />
-      <entry key="S5" value="1.5802576779837552" />
-      <entry key="S10" value="2.4106195642825248" />
-      <entry key="S30" value="6.382620962179709" />
-      <entry key="S60" value="11.89857483511208" />
-      <entry key="M2" value="19.96595964789031" />
-      <entry key="M5" value="35.748763510383625" />
-      <entry key="M10" value="59.13537142494644" />
-      <entry key="M15" value="80.57513045931896" />
-      <entry key="M30" value="136.86735615964375" />
-      <entry key="H1" value="238.40509885625022" />
-      <entry key="H2" value="400.20745822921907" />
-      <entry key="H4" value="602.0541770009523" />
-      <entry key="D1" value="1080.7996701745094" />
-      <entry key="W1" value="1373.6860516078934" />
+      <entry key="MS100" value="9.750152332402102E-8" />
+      <entry key="MS500" value="0.03988592594915375" />
+      <entry key="S2" value="0.6392929692859656" />
+      <entry key="S5" value="1.6082974329781679" />
+      <entry key="S10" value="2.5557296840797803" />
+      <entry key="S30" value="5.601513201073912" />
+      <entry key="S60" value="9.541606454716042" />
+      <entry key="M2" value="14.844328284573734" />
+      <entry key="M5" value="26.749297344021386" />
+      <entry key="M10" value="42.04609323288124" />
+      <entry key="M15" value="51.83716831804983" />
+      <entry key="M30" value="66.24151970422429" />
+      <entry key="H1" value="75.96855023050095" />
+      <entry key="H2" value="81.65983652135449" />
+      <entry key="H4" value="84.74372130611621" />
+      <entry key="D1" value="157.0936715870922" />
+      <entry key="W1" value="1149.1322139710626" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -109,37 +118,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "KEY_CHAT_IN_TOOLWINDOW": "false",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SearchEverywhere.PersistedScope.FileSearchEverywhereContributor": "All Places",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/ariel/WebstormProjects/ai-resume-analyser",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ariel/WebstormProjects/ai-resume-analyser/src/main.js",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ariel\\WebstormProjects\\ai-resume-analyser\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\ariel\\WebstormProjects\\ai-resume-analyser\\node_modules\\typescript\\lib",
-    "typescript.add.unambiguous.imports.on.the.fly": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;KEY_CHAT_IN_TOOLWINDOW&quot;: &quot;false&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SearchEverywhere.PersistedScope.FileSearchEverywhereContributor&quot;: &quot;All Places&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ariel/WebstormProjects/ai-resume-analyser&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ariel/WebstormProjects/ai-resume-analyser/src/main.js&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\ariel\\WebstormProjects\\ai-resume-analyser\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMThirdPartyAiProvidersConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ariel\\WebstormProjects\\ai-resume-analyser\\node_modules\\typescript\\lib&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ariel\WebstormProjects\ai-resume-analyser\app\lib" />
@@ -170,7 +179,9 @@
       <workItem from="1788109988289" duration="6409000" />
       <workItem from="1788283634831" duration="12768000" />
       <workItem from="1788377342962" duration="9735000" />
-      <workItem from="1788803758225" duration="5838000" />
+      <workItem from="1788803758225" duration="7077000" />
+      <workItem from="1789061489146" duration="9380000" />
+      <workItem from="1789152688702" duration="6665000" />
     </task>
     <task id="LOCAL-00001" summary="Started Authentication">
       <option name="closed" value="true" />
@@ -204,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1788304851255</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cloud Storage, pDF Image Conversion, Key Value Storage and AI feedback">
+      <option name="closed" value="true" />
+      <created>1788810201429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788810201429</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cloud Storage, pDF Image Conversion, Key Value Storage and AI feedback">
+      <option name="closed" value="true" />
+      <created>1788810380702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1788810380702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,11 +241,23 @@
     <option featureType="dependencySupport" implementationName="javascript:npm:prettier" />
     <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started Authentication" />
     <MESSAGE value="Completed Authentication" />
     <MESSAGE value="Completed Form Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Form Upload" />
+    <MESSAGE value="Cloud Storage, pDF Image Conversion, Key Value Storage and AI feedback" />
+    <MESSAGE value="Started Authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Authentication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
