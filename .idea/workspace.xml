@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ca4a9d-3f61-4cc5-acb1-3ba44da10758" name="Changes" comment="&quot;Resume Feedback Page&quot;">
+    <list default="true" id="d6ca4a9d-3f61-4cc5-acb1-3ba44da10758" name="Changes" comment="&quot;Resume Summary page, Details and ATS Score, Accordion. Temp /test page as puter credits finished&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ResumeCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.0533411093315483E-56" />
-      <entry key="MS500" value="7.286051227939117E-12" />
-      <entry key="S2" value="0.0016429451137707793" />
-      <entry key="S5" value="0.07695722114589973" />
-      <entry key="S10" value="0.2775774843849604" />
-      <entry key="S30" value="0.7071374240263966" />
-      <entry key="S60" value="1.0420363900022465" />
-      <entry key="M2" value="1.4032773853713958" />
-      <entry key="M5" value="7.050065894035461" />
-      <entry key="M10" value="48.131860168748695" />
-      <entry key="M15" value="98.08887707856798" />
-      <entry key="M30" value="202.63569493185952" />
-      <entry key="H1" value="292.19828980144206" />
-      <entry key="H2" value="351.09169265243355" />
-      <entry key="H4" value="385.01770218128354" />
-      <entry key="D1" value="492.95767287021965" />
-      <entry key="W1" value="1371.362427277273" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000000000073" />
-      <entry key="S60" value="1.000000085262307" />
-      <entry key="M2" value="1.0002919971010762" />
-      <entry key="M5" value="1.03856127773813" />
-      <entry key="M10" value="1.1963702567552683" />
-      <entry key="M15" value="1.3378447220950742" />
-      <entry key="M30" value="1.5812441157509247" />
-      <entry key="H1" value="1.7623936750496647" />
-      <entry key="H2" value="1.8731609471228994" />
-      <entry key="H4" value="1.9510198313225802" />
-      <entry key="D1" value="13.021855853987606" />
-      <entry key="W1" value="137.7429489864592" />
+      <entry key="S5" value="1.0000000789001315" />
+      <entry key="S10" value="1.0005155823277492" />
+      <entry key="S30" value="1.4079035902189367" />
+      <entry key="S60" value="4.053365294069559" />
+      <entry key="M2" value="11.632942365336227" />
+      <entry key="M5" value="29.880067029632126" />
+      <entry key="M10" value="49.76133935561017" />
+      <entry key="M15" value="64.87317257223059" />
+      <entry key="M30" value="110.9911588047342" />
+      <entry key="H1" value="208.09469408040854" />
+      <entry key="H2" value="331.0058931277885" />
+      <entry key="H4" value="432.93440116133337" />
+      <entry key="D1" value="623.8821176571473" />
+      <entry key="W1" value="1517.802086876401" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.607380115858223E-112" />
+      <entry key="S2" value="1.465087324294223E-28" />
+      <entry key="S5" value="7.351056704326363E-12" />
+      <entry key="S10" value="2.720460339398362E-6" />
+      <entry key="S30" value="0.017605102554178215" />
+      <entry key="S60" value="0.2471465263394089" />
+      <entry key="M2" value="1.271203172799143" />
+      <entry key="M5" value="4.23373175219145" />
+      <entry key="M10" value="7.395712406149823" />
+      <entry key="M15" value="9.69403055035833" />
+      <entry key="M30" value="14.085992593556194" />
+      <entry key="H1" value="18.11194262695132" />
+      <entry key="H2" value="21.047663250299507" />
+      <entry key="H4" value="22.881157348144058" />
+      <entry key="D1" value="35.14420318877824" />
+      <entry key="W1" value="159.77667202937383" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.7651288566827355E-9" />
-      <entry key="MS500" value="0.022498926851791966" />
-      <entry key="S2" value="0.38731274466174737" />
-      <entry key="S5" value="0.6971869786799849" />
-      <entry key="S10" value="0.9410920367103455" />
-      <entry key="S30" value="1.478119908752906" />
-      <entry key="S60" value="1.8992899291323575" />
-      <entry key="M2" value="2.3232733050020205" />
-      <entry key="M5" value="8.051607799374642" />
-      <entry key="M10" value="49.305191854427115" />
-      <entry key="M15" value="99.40886002619125" />
-      <entry key="M30" value="204.20584623956495" />
-      <entry key="H1" value="293.9543162860027" />
-      <entry key="H2" value="352.96141505116174" />
-      <entry key="H4" value="386.9669197218274" />
-      <entry key="D1" value="505.97789790889874" />
-      <entry key="W1" value="1509.103186747993" />
+      <entry key="MS100" value="3.185607602799872E-6" />
+      <entry key="MS500" value="0.07954968345474643" />
+      <entry key="S2" value="0.5310795932476863" />
+      <entry key="S5" value="0.7763613002769506" />
+      <entry key="S10" value="0.8816514433611085" />
+      <entry key="S30" value="1.41296650446343" />
+      <entry key="S60" value="4.430156358330946" />
+      <entry key="M2" value="13.24276449085613" />
+      <entry key="M5" value="34.71288433643627" />
+      <entry key="M10" value="57.89399496277817" />
+      <entry key="M15" value="75.36351776004308" />
+      <entry key="M30" value="125.9503611411558" />
+      <entry key="H1" value="227.13235759658284" />
+      <entry key="H2" value="353.01246020226415" />
+      <entry key="H4" value="456.79376251325385" />
+      <entry key="D1" value="660.0212280674966" />
+      <entry key="W1" value="1678.576075449612" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -179,7 +181,7 @@
       <workItem from="1788377342962" duration="9735000" />
       <workItem from="1788803758225" duration="7077000" />
       <workItem from="1789061489146" duration="9380000" />
-      <workItem from="1789152688702" duration="14626000" />
+      <workItem from="1789152688702" duration="19229000" />
     </task>
     <task id="LOCAL-00001" summary="Started Authentication">
       <option name="closed" value="true" />
@@ -237,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789502796784</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;Resume Summary page, Details and ATS Score, Accordion. Temp /test page as puter credits finished&quot;">
+      <option name="closed" value="true" />
+      <created>1789661916086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789661916086</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +274,8 @@
     <MESSAGE value="Cloud Storage, pDF Image Conversion, Key Value Storage and AI feedback" />
     <MESSAGE value="Started Authentication" />
     <MESSAGE value="&quot;Resume Feedback Page&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Resume Feedback Page&quot;" />
+    <MESSAGE value="&quot;Resume Summary page, Details and ATS Score, Accordion. Temp /test page as puter credits finished&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Resume Summary page, Details and ATS Score, Accordion. Temp /test page as puter credits finished&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
